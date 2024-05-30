@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar li, .navbar a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+body{
+    background-color: beige;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    font-size: large;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 200px;
+}
